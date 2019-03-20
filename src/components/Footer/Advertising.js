@@ -4,7 +4,6 @@ const Advertising = ({ text, link }) => {
   return (
     <div
       style={{
-        border: "2px double black",
         padding: 5,
         margin: 10
       }}
@@ -12,10 +11,8 @@ const Advertising = ({ text, link }) => {
       <img
         src={link}
         style={{
-          display: "block",
-          margin: "0 auto",
-          width: 80,
-          height: 80
+          width: 150,
+          height: 100
         }}
       />
       <h3
