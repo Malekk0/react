@@ -11,9 +11,9 @@ class Header extends React.Component {
         <div className="header-nav">
           <h2>{this.props.header}</h2>
           <nav className="nav">
-            <Link name="Home" href="" />
-            <Link name="About" href="" />
-            <Link name="Another link" href="" />
+            <Link name="Главная" href="" />
+            <Link name="О сайте" href="" />
+            <Link name="Форому" href="" />
           </nav>
         </div>
       </header>
